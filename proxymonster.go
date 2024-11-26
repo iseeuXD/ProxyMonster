@@ -67,6 +67,8 @@ func main() {
 	for _, proxy := range results {
 		fmt.Println(proxy)
 	}
+	fmt.Println("\ndevam etmek için enter tuşuna bas.")
+	bufio.NewReader(os.Stdin).ReadBytes('\n')
 }
 
 func loadProxies(fileName string) ([]string, error) {
