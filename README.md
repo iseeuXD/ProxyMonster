@@ -32,9 +32,13 @@
    ```bash
    git clone https://github.com/kullaniciadi/ProxyMonster.git
    cd ProxyMonster
-## Gerekli bağımlılıkları yükleyin:
+## 🗳️ Gerekli bağımlılıkları yükleyin:
 
 ```
 go mod tidy
+```
 
+## 🔌 Programı Çalıştırın:
+
+```
 go run proxymonster.go
