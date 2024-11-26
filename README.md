@@ -4,7 +4,7 @@
   <img src="https://blog.golang.org/go-brand/Go-Logo/PNG/Go-Logo_LightBlue.png" alt="Go Logo" width="300">
 </div>
 
-### ⚡ **ProxyMonster**, çeşitli türdeki proxyleri kontrol etmek için geliştirilmiş bir Go programıdır.
+### ⚡ **ProxyMonster**, çeşitli proxyleri kontrol etmek için geliştirilmiş bir Go programıdır.
 
 #### 🌟 Desteklediği proxy türleri:
 - **HTTP**
@@ -15,10 +15,9 @@
 ---
 
 ## 🚀 Özellikler
-✅ Eşzamanlı (Concurrent) proxy kontrolü – **hızlı ve verimli!**  
-✅ Çalışan ve çalışmayan proxyleri renkli olarak görselleştirme.  
-✅ Kullanıcı dostu terminal arayüzü.  
-✅ Ascii Art ile estetik görünüm!  
+✅ Eşzamanlı (Concurrent) proxy kontrolü    
+✅ Terminal arayüzü.  
+✅ En hızlı proxy checker!
 
 ---
 
@@ -28,7 +27,14 @@
 ---
 
 ## 🛠️ Kurulum ve Çalıştırma
-1. Bu projeyi klonlayın:
+
+1. **Projeyi klonlayın:**
    ```bash
    git clone https://github.com/kullaniciadi/ProxyMonster.git
    cd ProxyMonster
+## Gerekli bağımlılıkları yükleyin:
+
+```
+go mod tidy
+
+go run proxymonster.go
